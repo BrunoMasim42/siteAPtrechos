@@ -1,1 +1,1 @@
-Projeto desenvolvido para o site da empresa.
+Projeto site empresa
