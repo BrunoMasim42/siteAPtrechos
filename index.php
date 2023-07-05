@@ -12,18 +12,16 @@
     <title>APTrechos</title>
   </head>
   <body>
+    <div class="container">
+
         <div class="indica" >
             <h3>Menu</h3>
         </div>
-  
+       
   <div class="logo" >
     <img src="_imagens/logos/logo Pronta.png" alt="" >
 
     </div>
-
-    
-    <div class="container">
-        
 
         <div class="hamburguer">
         
@@ -31,14 +29,14 @@
           <div class="line" id="line2"></div>
           <div class="line" id="line3"></div>
           <span>fechar</span>
-    </div>  
+        </div>  
        <!--Imagem de capa do Site-->
         <header id="home">
             <div class="img-wrapper">
                 <img src="_imagens/escritorio.jpg" alt="">
             </div>
             <div class="banner">
-                <h1>Um Empresa genuinamente amapaense!</h1>
+                <h1>Empresa genuinamente amapaense!</h1>
                 <p>Conheça nossos serviços</p>
                 <!--<button>Saiba mais</button>-->
             </div>
@@ -49,18 +47,36 @@
         
         <nav>
             <ul class="menu">
-              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Portifólio</a></li>
-              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-              <li class="menu-item"><a href="#contato" class="menu-link">Equipamentos</a></li>
-              <li class="menu-item"><a href="#orcamento" class="menu-link">Serviços</a></li>
-              <li class="menu-item"><a href="#orcamento" class="menu-link">Planejamento</a></li>
+              <li class="menu-item"><a href="index.php" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="servico.php" class="menu-link">Serviços</a></li>
+              <li class="menu-item"><a href="projeto.php" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="planejamento.php" class="menu-link">Planejamento</a></li>
+              <li class="menu-item"><a href="orcamento.php" class="menu-link">Orçamentos</a></li>
+              <li class="menu-item"><a href="portifolio.php" class="menu-link">Portifólio</a></li>
             </ul>
           </nav>
+          
           <div class="social-media">
-            <a href="#"><i class="fab fa-facebook" ></i></a>
-            <a href="#"><i class="fab fa-github-alt"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <div class="face">
+                <a href="#" target="blank"><img src="_imagens/icone/face.png" width="31px"></a>
+    
+            </div>
+    
+            <div class="insta">
+                <a href="https://www.instagram.com/aptrechos_/" target="blank"><img src="_imagens/icone/insta.png" width="30px"></a>
+    
+            </div>
+    
+            <div class="whats">
+                <a href=""><img src="_imagens/icone/whatssap2.png" width="30px"></a>
+    
+            </div>
+    
+            <div class="youtube">
+                <a href="" target="blank"><img src="_imagens/icone/youtube.png" width="33px" height="30px"></a>
+    
+            </div>
+           
           </div>
         </aside><br><br>
 
@@ -122,21 +138,15 @@
             <p>
               AP Trechos Comunicação - Todos os diretos reservados
             </p>
-            <div class="social-list">
-              <ul>
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-              </ul>
-            </div>
+            
           </div>
         </footer>
-        <a href="#home" id="link-topo">
+        <a href="#" id="link-topo">
           <i class="fas fa-arrow-up"></i>
         </a>
     </div>
 
-    <script src="script.js"></script>
+    <script src="_js/script.js"></script>
    </body>
 
   
